@@ -4,7 +4,7 @@ import styled from "styled-components";
 import * as imageList from "../../assets/imgList";
 import { CourseItemComponentProps } from "./courseItems";
 
-// This components is created using the map method in the CourseSlider component
+// This components is created using the map method in the SliderContainer component
 
 export const SlideItem: FC<CourseItemComponentProps> = ({
   currCourse,

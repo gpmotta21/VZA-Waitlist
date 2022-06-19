@@ -6,7 +6,7 @@ import { SliderCotainer } from "./SliderContainer";
 
 // I noticed that the Modules segment design has arrow buttons under the Course card
 // , so I imagined it should probably be some sort of Slider or Carousel.
-// That being said I implemented my own Slider on the CoursesSlider component
+// That being said I implemented my own Slider on the SliderContainer component
 
 export const Courses: FC = () => {
   return (

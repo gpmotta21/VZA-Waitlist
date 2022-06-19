@@ -33,10 +33,10 @@ export const Form: FC = () => {
     setSubmit(true);
   };
 
-  // If there are any errors and the user attempted to submit the form data,
+  // -> If there are no errors and the user attempted to submit the form data,
   // this useEffect will execute the API call.
-  // Since the backend is running on localhost, I added a setTimeout to make the request,
-  // thus making the transition between the Loading component and the submit button nicer.
+  // -> Since the backend is running on localhost, I added a setTimeout to make the request,
+  // thus making the transition between the Loading Icon and the Submit Button nicer.
   useEffect(() => {
     const fetchData = async () => {
       try {
@@ -61,7 +61,7 @@ export const Form: FC = () => {
     return () => clearTimeout(timeout);
   }, [formErrors]);
 
-  // Turning success state back to false after a few seconds
+  // Turning success state back to undefined after a few seconds
   useEffect(() => {
     let timeout: NodeJS.Timeout;
 
