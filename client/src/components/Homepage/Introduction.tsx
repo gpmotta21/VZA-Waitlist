@@ -5,12 +5,12 @@ import * as imgList from "../../assets/imgList";
 
 export const Introduction: FC = () => {
   return (
-    <IntroductionStyle>
+    <IntroductionStyle data-aos="fade-left" data-aos-duration="500">
       <img src={imgList.valuation} alt="Valuation 2.0 by Varos" />
       <h1>Domine o método mais usado no mundo para encontrar ações baratas.</h1>
       <p>
-        Bancos, fundos, investidores. Todos eles usam o Valuation pra fechar
-        bons negócios.
+        Bancos, fundos, investidores. Todos eles usam o Valuation pra fechar bons
+        negócios.
       </p>
     </IntroductionStyle>
   );

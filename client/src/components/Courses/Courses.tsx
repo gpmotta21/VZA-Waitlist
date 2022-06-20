@@ -10,7 +10,7 @@ import { SliderCotainer } from "./SliderContainer";
 
 export const Courses: FC = () => {
   return (
-    <CoursesStyle id="modules">
+    <CoursesStyle id="modules" data-aos="fade-left" data-aos-duration="500">
       <header>
         <h1>Todos os módulos</h1>
         <img src={imageList.arrowBox} alt="White arrow box" />

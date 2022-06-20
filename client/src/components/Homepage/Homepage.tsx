@@ -10,7 +10,7 @@ export const Homepage: FC = () => {
   return (
     <HomepageStyle id="homepage">
       <Introduction />
-      <FormWrapper>
+      <FormWrapper data-aos="fade-left" data-aos-duration="700">
         <span>Entre na lista para ser avisado no lançamento do curso</span>
         <Form />
       </FormWrapper>

@@ -4,7 +4,7 @@ import * as imgList from "../../assets/imgList";
 
 export const Rating = () => {
   return (
-    <RatingStyle>
+    <RatingStyle data-aos="fade-left" data-aos-duration="900">
       <p>Avaliação média do curso</p>
       <img src={imgList.stars} alt="Avaliação em estrelas" />
       <p>NPS: 83.6</p>

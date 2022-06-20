@@ -7,11 +7,11 @@ import { itemsArray } from "./ItemsArray";
 export const Details: FC = () => {
   return (
     <DetailsStyle id="situation">
-      <header>
+      <header data-aos="fade-left" data-aos-duration="500">
         <h1>Você, preparado para,</h1>
         <h1>qualquer situação</h1>
       </header>
-      <ItemsGrid>
+      <ItemsGrid data-aos="fade-left" data-aos-duration="700">
         {itemsArray.map((i, key) => (
           <Item icon={i.icon} description={i.description} key={key} />
         ))}

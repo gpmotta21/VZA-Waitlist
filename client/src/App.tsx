@@ -1,5 +1,7 @@
-import { FC } from "react";
+import { FC, useEffect } from "react";
 import styled, { createGlobalStyle } from "styled-components";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 import { applicationBg } from "./assets/imgList";
 import { Footer } from "./components/Footer";
@@ -9,6 +11,11 @@ import { FixedNav } from "./components/Navbar/FixedNav";
 import { Details } from "./components/Details/Details";
 
 const App: FC = () => {
+  // UseEffect for the Animation on Scroll lib
+  useEffect(() => {
+    Aos.init({ offset: 100, once: false });
+  }, []);
+
   return (
     <AppStyle>
       <GlobalStyle />
