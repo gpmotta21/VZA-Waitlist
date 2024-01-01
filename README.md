@@ -1,6 +1,6 @@
 # Lista de espera VZA 2.0
 
-> Project requested by the Edufinance.
+> Project requested by Edufinance
 
 <br>
 
